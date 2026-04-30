@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Value Fortress Stack™ Scanner</title>
+</head>
+<body>
+
+<h1>Are You Building the Next Chegg?</h1>
+<h3>An interactive to tool to test your start-up ideas(ver 0.9 Alpha)</h3> 
+
+<label>Can your product be replicated by AI?</label>
+<select id="q1">
+  <option value="high">Yes</option>
+  <option value="low">No</option>
+</select>
+
+<label>Do you have switching costs?</label>
+<select id="q2">
+  <option value="low">No</option>
+  <option value="high">Yes</option>
+</select>
+
+<button onclick="analyze()">Analyze</button>
+
+<h2 id="result"></h2>
+
+<script>
+function analyze() {
+  let q1 = document.getElementById("q1").value;
+  let q2 = document.getElementById("q2").value;
+
+  if (q1 === "high" && q2 === "low") {
+    document.getElementById("result").innerText = "⚠️ High Risk: Casualty Stack";
+  } else {
+    document.getElementById("result").innerText = "🏰 Moving toward Value Fortress";
+  }
+}
+</script>
+
+</body>
+</html>
