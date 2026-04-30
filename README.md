@@ -1,5 +1,10 @@
-“Value Fortress Stack™” is a trademark of Chan Jiunn Hwa.
+## License & Usage
 
-This repository is licensed under the MIT License for code use.
-Use of the name “Value Fortress Stack™” in derivative works,
-products, or commercial offerings requires prior written permission.
+This project is open-sourced under the MIT License.
+
+However, “Value Fortress Stack™” is a protected term.
+
+You are free to use, modify, and distribute the code.
+Use of the framework name in commercial or derivative works requires permission.
+
+See TRADEMARK.md for details.
